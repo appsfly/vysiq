@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { HiOutlineMenu, HiOutlineX } from 'react-icons/hi'
 import { HiOutlineCube } from 'react-icons/hi2'
-import { Button } from '../UI/Button'
 import { Container } from '../UI/Container'
 import { LanguageSwitcher } from '../UI/LanguageSwitcher'
 import { media } from '../../styles/breakpoints'
@@ -156,11 +155,10 @@ export function Navbar() {
             )
           )}
         </Links>
-{/* 
         <Actions>
           <LanguageSwitcher />
-          <Button $variant="primary">{t('nav.bookDemo')}</Button>
-        </Actions> */}
+          {/* <Button $variant="primary">{t('nav.bookDemo')}</Button> */}
+        </Actions>
 
         <MenuButton onClick={() => setOpen((v) => !v)} aria-label={t('nav.toggleMenu')}>
           {open ? <HiOutlineX /> : <HiOutlineMenu />}
@@ -179,10 +177,10 @@ export function Navbar() {
             </NavLink>
           )
         )}
-        {/* <MobileActions>
+        <MobileActions>
           <LanguageSwitcher />
-          <Button $variant="primary">{t('nav.bookDemo')}</Button>
-        </MobileActions> */}
+          {/* <Button $variant="primary">{t('nav.bookDemo')}</Button> */}
+        </MobileActions>
       </MobileMenu>
     </Bar>
   )

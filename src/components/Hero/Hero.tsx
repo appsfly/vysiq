@@ -1,11 +1,8 @@
 import { motion } from 'framer-motion'
 import styled from 'styled-components'
 import { useTranslation } from 'react-i18next'
-import { HiArrowRight } from 'react-icons/hi2'
-import { HiOutlinePlay } from 'react-icons/hi'
 import { Container } from '../UI/Container'
 import { Badge } from '../UI/Badge'
-import { Button } from '../UI/Button'
 import { GlowBackground } from '../UI/GlowBackground'
 import { ProductPreview } from '../ProductPreview'
 import { media } from '../../styles/breakpoints'
@@ -77,21 +74,6 @@ const Subtitle = styled.p`
 
   ${media.mobile} {
     font-size: 16px;
-  }
-`
-
-const Actions = styled.div`
-  display: flex;
-  gap: 14px;
-  margin-top: 34px;
-
-  ${media.mobile} {
-    flex-direction: column;
-    width: 100%;
-
-    button {
-      width: 100%;
-    }
   }
 `
 

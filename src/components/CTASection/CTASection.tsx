@@ -1,9 +1,7 @@
 import { motion } from 'framer-motion'
 import styled from 'styled-components'
 import { useTranslation } from 'react-i18next'
-import { HiArrowRight } from 'react-icons/hi2'
 import { Container } from '../UI/Container'
-import { Button } from '../UI/Button'
 import { GlowBackground } from '../UI/GlowBackground'
 import { media } from '../../styles/breakpoints'
 
@@ -42,14 +40,6 @@ const Subtitle = styled.p`
   line-height: 1.6;
   color: ${({ theme }) => theme.colors.darkTextSecondary};
   max-width: 560px;
-`
-
-const Actions = styled.div`
-  position: relative;
-  z-index: 1;
-  margin-top: 36px;
-  display: flex;
-  justify-content: center;
 `
 
 export function CTASection() {

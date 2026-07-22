@@ -162,7 +162,7 @@ Body text: 16px
 שם זמני:
 
 ```text
-VisionOps AI
+Vysiq AI
 ```
 
 אפשר להחליף בהמשך.

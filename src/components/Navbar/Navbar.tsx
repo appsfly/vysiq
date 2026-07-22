@@ -139,7 +139,7 @@ export function Navbar() {
       <Row>
         <Brand to="/">
           <HiOutlineCube />
-          VisionOps AI
+          Vysiq AI
         </Brand>
 
         <Links>

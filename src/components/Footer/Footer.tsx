@@ -116,7 +116,7 @@ export function Footer() {
           <div>
             <Brand to="/">
               <HiOutlineCube />
-              VisionOps AI
+              Vysiq AI
             </Brand>
             <Tagline>{t('footer.tagline')}</Tagline>
           </div>

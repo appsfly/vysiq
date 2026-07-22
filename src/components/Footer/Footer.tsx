@@ -95,6 +95,11 @@ const BottomLinks = styled.div`
 
 const columnKeys = ['platform', 'solutions', 'company', 'resources'] as const
 
+const columnRoutes: Partial<Record<(typeof columnKeys)[number], string[]>> = {
+  company: ['/about', '/blog'],
+  resources: ['/case-studies', '/support'],
+}
+
 export function Footer() {
   const { t } = useTranslation()
 
@@ -120,17 +125,20 @@ export function Footer() {
             <div key={col.key}>
               <ColumnTitle>{col.title}</ColumnTitle>
               <LinkList>
-                {col.links.map((link, i) => (
-                  <li key={link}>
-                    {col.key === 'company' && i === 0 ? (
-                      <FooterLink as={Link} to="/about">
-                        {link}
-                      </FooterLink>
-                    ) : (
-                      <FooterLink href="#">{link}</FooterLink>
-                    )}
-                  </li>
-                ))}
+                {col.links.map((link, i) => {
+                  const to = columnRoutes[col.key]?.[i]
+                  return (
+                    <li key={link}>
+                      {to ? (
+                        <FooterLink as={Link} to={to}>
+                          {link}
+                        </FooterLink>
+                      ) : (
+                        <FooterLink href="#">{link}</FooterLink>
+                      )}
+                    </li>
+                  )
+                })}
               </LinkList>
             </div>
           ))}

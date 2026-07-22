@@ -111,11 +111,11 @@
       },
       "company": {
         "title": "Company",
-        "links": ["About", "Careers", "Blog"]
+        "links": ["About", "Blog"]
       },
       "resources": {
         "title": "Resources",
-        "links": ["Documentation", "Case Studies", "Support"]
+        "links": ["Case Studies", "Support"]
       }
     },
     "copyright": "© {{year}} VisionOps AI. All rights reserved.",
@@ -171,6 +171,38 @@
         "description": "Every capability is shaped alongside the managers and teams who run physical operations daily."
       }
     ]
+  },
+  "blog": {
+    "eyebrow": "Blog",
+    "title": "Insights on Operational Intelligence.",
+    "subtitle": "Thoughts on computer vision, AI operations, and what it takes to run physical operations with real-time visibility.",
+    "comingSoonTitle": "Our Blog Is Coming Soon",
+    "comingSoonBody": "We're working on our first posts. Check back soon for updates on product, industry insights, and how teams are using VisionOps AI."
+  },
+  "caseStudies": {
+    "eyebrow": "Case Studies",
+    "title": "See VisionOps AI in Action.",
+    "subtitle": "Real stories from retail, warehouse, manufacturing and construction teams using VisionOps AI to run operations.",
+    "comingSoonTitle": "Case Studies Coming Soon",
+    "comingSoonBody": "We're putting together detailed stories from our early customers. Check back soon, or contact us directly to hear how teams are using the platform today."
+  },
+  "support": {
+    "eyebrow": "Support",
+    "title": "We're Here to Help",
+    "subtitle": "Have a question, an issue, or need help getting set up? Reach out and our team will get back to you directly.",
+    "emailTitle": "Email Support",
+    "emailBody": "Send us a message any time and we'll respond as soon as we can.",
+    "email": "prmtchdmn@gmail.com",
+    "phoneTitle": "Phone Support",
+    "phoneBody": "Prefer to talk? Call or message us directly.",
+    "phonePrimaryLabel": "Primary",
+    "phonePrimary": "0539430984",
+    "phoneSecondaryLabel": "Secondary",
+    "phoneSecondary": "0509072335",
+    "teamTitle": "Talk to Our Team",
+    "teamBody": "For anything urgent or hands-on, reach out directly.",
+    "teamName": "Gideon",
+    "teamRole": "CEO & CTO, VisionOps AI"
   },
   "contact": {
     "eyebrow": "Get In Touch",

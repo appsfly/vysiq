@@ -4,6 +4,7 @@ import { HiOutlineNewspaper } from 'react-icons/hi2'
 import { Container } from '../components/UI/Container'
 import { CTASection } from '../components/CTASection'
 import { media } from '../styles/breakpoints'
+import { useScrollUp } from './Support'
 
 const Wrap = styled.div`
   padding: 160px 0 0;
@@ -95,6 +96,7 @@ const PanelBody = styled.p`
 `
 
 export default function Blog() {
+  useScrollUp()
   const { t } = useTranslation()
 
   return (

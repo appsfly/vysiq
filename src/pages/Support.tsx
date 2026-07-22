@@ -133,12 +133,16 @@ const TeamRole = styled.p`
   color: ${({ theme }) => theme.colors.textSecondary};
 `
 
-export default function Support() {
-  const { t } = useTranslation()
-
+export const useScrollUp  = () => {
   useLayoutEffect(() =>{
       window.scroll({top:0, behavior:"smooth"})
   },[])
+
+}
+
+export default function Support() {
+  useScrollUp()
+  const { t } = useTranslation()
 
   return (
     <Wrap>

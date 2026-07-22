@@ -1,0 +1,268 @@
+{
+  "nav": {
+    "platform": "Platform",
+    "solutions": "Solutions",
+    "howItWorks": "How It Works",
+    "about": "About",
+    "bookDemo": "Book a Demo",
+    "toggleMenu": "Toggle menu",
+    "toggleLanguage": "Switch to Hebrew"
+  },
+  "hero": {
+    "badge": "Operational Intelligence Platform",
+    "titleLine1": "Know What's Happening.",
+    "titleLine2": "Before Everyone Else Does.",
+    "subtitle": "Your cameras already capture everything that matters. AI Vision turns that footage into real-time operational intelligence — so you know what's happening, and what to do next.",
+    "ctaPrimary": "Book a Demo",
+    "ctaSecondary": "Watch 2-Min Overview"
+  },
+  "problem": {
+    "eyebrow": "The Gap",
+    "title": "You Have Cameras. But Not Operational Visibility.",
+    "items": [
+      {
+        "title": "Cameras Record, But Don’t Explain",
+        "description": "Your cameras collect thousands of hours of footage, but managers still have to watch and search manually to find what matters."
+      },
+      {
+        "title": "Managers Discover Problems Too Late",
+        "description": "Overloads, delays, unstaffed zones and safety incidents are only discovered after the damage has already been done."
+      },
+      {
+        "title": "Operational Data Is Fragmented",
+        "description": "Video, business systems and reports aren’t connected into a single clear picture of what’s happening."
+      }
+    ]
+  },
+  "howItWorks": {
+    "eyebrow": "How It Works",
+    "title": "From Live Video to Actionable Decisions.",
+    "steps": [
+      { "title": "Connect", "body": "Connect to your existing cameras without replacing infrastructure." },
+      { "title": "Detect", "body": "Detect people, equipment, events, behaviors and patterns." },
+      { "title": "Understand", "body": "Analyze the business and operational context of each event." },
+      { "title": "Act", "body": "Send an alert, create a task, update a system or trigger a workflow." }
+    ],
+    "diagram": ["Camera", "Vision AI", "Operational Context", "Alert / Insight / Action"]
+  },
+  "capabilities": {
+    "eyebrow": "Product Capabilities",
+    "title": "One Platform. Complete Operational Visibility.",
+    "items": [
+      { "title": "Live Detection", "description": "Detect operational events as they happen." },
+      { "title": "AI Search", "description": "Search your cameras using natural language." },
+      { "title": "Operational Analytics", "description": "Measure what matters across every location." },
+      { "title": "Smart Alerts", "description": "Know when something needs your attention." },
+      { "title": "Multi-Site Visibility", "description": "Monitor every site from one platform." },
+      { "title": "AI Assistant", "description": "Ask questions. Get answers. Make better decisions." }
+    ]
+  },
+  "useCases": {
+    "eyebrow": "Use Cases",
+    "title": "Built for Every Kind of Physical Operation.",
+    "tabs": {
+      "retail": {
+        "label": "Retail",
+        "points": ["Queue length measurement", "Empty shelf detection", "Unstaffed zones", "Customer flow analysis"]
+      },
+      "warehouses": {
+        "label": "Warehouses",
+        "points": [
+          "Loading bay delays",
+          "Blockages and obstructions",
+          "Equipment left in the wrong area",
+          "Picking process anomalies"
+        ]
+      },
+      "manufacturing": {
+        "label": "Manufacturing",
+        "points": ["Production line monitoring", "Stoppage detection", "Worker safety", "Process deviations"]
+      },
+      "construction": {
+        "label": "Construction",
+        "points": [
+          "Protective equipment compliance",
+          "Entry into hazardous zones",
+          "Presence monitoring",
+          "Improper equipment use"
+        ]
+      },
+      "hospitality": {
+        "label": "Hospitality",
+        "points": ["Overload detection", "Service times", "Area cleanliness", "Staff operations"]
+      }
+    }
+  },
+  "cta": {
+    "title": "See Your Operations Differently.",
+    "subtitle": "Book a personalized demo and see how AI Vision turns your cameras into real-time operational intelligence.",
+    "button": "Book a Demo"
+  },
+  "footer": {
+    "tagline": "Turn every camera into operational intelligence — real-time insights, alerts and answers from what's happening on the ground.",
+    "columns": {
+      "platform": {
+        "title": "Platform",
+        "links": ["Real-Time Detection", "Video Search", "Automated Alerts", "Analytics"]
+      },
+      "solutions": {
+        "title": "Solutions",
+        "links": ["Retail", "Warehouses", "Manufacturing", "Construction"]
+      },
+      "company": {
+        "title": "Company",
+        "links": ["About", "Careers", "Blog"]
+      },
+      "resources": {
+        "title": "Resources",
+        "links": ["Documentation", "Case Studies", "Support"]
+      }
+    },
+    "copyright": "© {{year}} VisionOps AI. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact"
+  },
+  "productPreview": {
+    "camLabel": "Loading Bay 3 — Camera 04",
+    "live": "LIVE",
+    "boxes": ["Worker detected", "Safety gear missing", "Queue length: 7", "Restricted zone activity"],
+    "kpis": [
+      { "label": "Active cameras", "value": "128" },
+      { "label": "Open alerts", "value": "3" },
+      { "label": "Avg. response", "value": "4m" }
+    ],
+    "timeline": [
+      { "time": "08:14", "label": "Vehicle arrived at bay 3" },
+      { "time": "08:21", "label": "Vehicle idle 6+ min" },
+      { "time": "08:27", "label": "Loading delay flagged" },
+      { "time": "08:36", "label": "Vehicle departed" }
+    ],
+    "assistantHeader": "AI Operations Assistant",
+    "question": "What happened near loading bay 3 this morning?",
+    "answer": "Between 08:14 and 08:27, three delivery vehicles arrived. One vehicle remained idle for 11 minutes and caused a loading delay."
+  },
+  "about": {
+    "eyebrow": "About VisionOps AI",
+    "title": "Built for the People Who Run Operations.",
+    "subtitle": "We started VisionOps AI because operations teams had cameras everywhere and visibility nowhere. Our mission is to turn the video you already have into real-time operational intelligence — so you know what's happening on the ground, even when you're not there.",
+    "missionTitle1": "Why We Exist",
+    "missionBody1a": "Cameras record everything and explain nothing. Managers are left watching footage after the fact, piecing together what went wrong from fragments of video, spreadsheets and reports that were never connected in the first place.",
+    "missionBody1b": "We believe the cameras already on site are enough — what's missing is the layer that understands what they see and turns it into something a manager can act on in the moment.",
+    "missionTitle2": "What We're Building",
+    "missionBody2a": "VisionOps AI connects to existing camera infrastructure and turns live video into detected events, operational context, and answers to plain-language questions — built for retail, warehouses, manufacturing, construction and hospitality teams.",
+    "missionBody2b": "It's designed to feel like an operations tool first, and an AI product second.",
+    "valuesTitle": "What Guides How We Build.",
+    "values": [
+      {
+        "title": "Works With What You Have",
+        "description": "We connect to the cameras already installed on site — no rip-and-replace, no new hardware."
+      },
+      {
+        "title": "Operational, Not Just AI",
+        "description": "Every feature is built around a real operational question, not a model demo."
+      },
+      {
+        "title": "Privacy By Design",
+        "description": "No facial recognition by default, configurable retention, and privacy zones built in from day one."
+      },
+      {
+        "title": "Built With Operators",
+        "description": "Every capability is shaped alongside the managers and teams who run physical operations daily."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Get In Touch",
+    "title": "Contact Us",
+    "subtitle": "Have a question about VisionOps AI or want to see the platform in action? Send us a message and our team will get back to you.",
+    "fields": {
+      "name": "Name",
+      "workEmail": "Work Email",
+      "company": "Company",
+      "message": "Message"
+    },
+    "placeholders": {
+      "name": "Jane Doe",
+      "email": "jane@company.com",
+      "company": "Company name",
+      "message": "How can we help?"
+    },
+    "send": "Send Message",
+    "infoTitle": "Contact Details",
+    "emailLabel": "Email",
+    "salesLabel": "Sales",
+    "supportLabel": "Support"
+  },
+  "legal": {
+    "privacy": {
+      "eyebrow": "Legal",
+      "title": "Privacy Policy",
+      "updated": "July 22, 2026",
+      "overview": {
+        "heading": "Overview",
+        "body": "VisionOps AI (\"we\", \"us\", \"our\") provides an operational intelligence platform that turns camera footage into real-time insights. This policy explains what information we collect, how we use it, and the choices you have."
+      },
+      "collect": {
+        "heading": "Information We Collect",
+        "items": [
+          "Account information you provide, such as name, email, and company details.",
+          "Video and sensor data from cameras connected to the platform by your organization.",
+          "Usage data, including how you interact with the dashboard and AI assistant."
+        ]
+      },
+      "use": {
+        "heading": "How We Use Information",
+        "body": "We use collected information to operate and improve the platform, generate detections and alerts, provide customer support, and maintain the security of our systems."
+      },
+      "retention": {
+        "heading": "Data Retention",
+        "body": "Video and derived data are retained according to the retention settings configured by your organization. You can request deletion of your account data at any time."
+      },
+      "sharing": {
+        "heading": "Sharing",
+        "body": "We do not sell your data. We may share data with subprocessors who help us deliver the platform, subject to confidentiality obligations, or as required by law."
+      },
+      "contact": {
+        "heading": "Contact",
+        "body": "Questions about this policy can be sent to <1>{{email}}</1>.",
+        "email": "privacy@visionops.ai"
+      }
+    },
+    "terms": {
+      "eyebrow": "Legal",
+      "title": "Terms of Service",
+      "updated": "July 22, 2026",
+      "agreement": {
+        "heading": "Agreement to Terms",
+        "body": "By accessing or using the VisionOps AI platform, you agree to be bound by these Terms of Service. If you do not agree, do not use the platform."
+      },
+      "use": {
+        "heading": "Use of the Platform",
+        "body": "You may use the platform only for lawful operational monitoring purposes and in accordance with any agreement between your organization and VisionOps AI. You are responsible for ensuring your use of camera footage complies with applicable law, including notifying individuals as required."
+      },
+      "accounts": {
+        "heading": "Accounts",
+        "body": "You are responsible for maintaining the confidentiality of your account credentials and for all activity that occurs under your account."
+      },
+      "availability": {
+        "heading": "Availability",
+        "body": "We aim to keep the platform available and reliable but do not guarantee uninterrupted access. Scheduled maintenance and unforeseen outages may occur."
+      },
+      "liability": {
+        "heading": "Limitation of Liability",
+        "body": "To the maximum extent permitted by law, VisionOps AI is not liable for indirect, incidental, or consequential damages arising from use of the platform."
+      },
+      "changes": {
+        "heading": "Changes to These Terms",
+        "body": "We may update these terms from time to time. Continued use of the platform after changes take effect constitutes acceptance of the revised terms."
+      },
+      "contact": {
+        "heading": "Contact",
+        "body": "Questions about these terms can be sent to <1>{{email}}</1>.",
+        "email": "legal@visionops.ai"
+      }
+    },
+    "updatedLabel": "Last updated: {{date}}"
+  }
+}

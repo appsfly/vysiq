@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next'
 import { HiOutlineEnvelope, HiOutlinePhone, HiOutlineUserCircle } from 'react-icons/hi2'
 import { Container } from '../components/UI/Container'
 import { media } from '../styles/breakpoints'
+import { useLayoutEffect } from 'react'
 
 const Wrap = styled.div`
   padding: 160px 0 100px;
@@ -134,6 +135,10 @@ const TeamRole = styled.p`
 
 export default function Support() {
   const { t } = useTranslation()
+
+  useLayoutEffect(() =>{
+      window.scroll({top:0, behavior:"smooth"})
+  },[])
 
   return (
     <Wrap>
